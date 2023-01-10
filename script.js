@@ -5,14 +5,14 @@ for (let i = 0; i < button.length; i++) {
     let audio;
     if (i > 3) {
       if (i === 4) {
-        audio = new Audio(`audio/kick-bass.mp3`);
+        audio = new Audio(`kick-bass.mp3`);
       } else if (i === 5) {
-        audio = new Audio(`audio/crash.mp3`);
+        audio = new Audio(`crash.mp3`);
       } else {
-        audio = new Audio(`audio/snare.mp3`);
+        audio = new Audio(`snare.mp3`);
       }
     } else {
-      audio = new Audio(`audio/tom-${i + 1}.mp3`);
+      audio = new Audio(`tom-${i + 1}.mp3`);
     }
     e.target.classList.add("touch");
 
