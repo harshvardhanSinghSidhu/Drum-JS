@@ -1,0 +1,22 @@
+body {
+  background-image: url(image/metaGirl.png);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sounds {
+  margin-top: 25rem;
+  margin-left: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.2rem;
+}
+
+.touch {
+  background-color: lightcoral;
+}
